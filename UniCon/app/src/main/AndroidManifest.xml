@@ -17,7 +17,9 @@
         </activity>
         <activity android:name=".SpeedActivity" />
         <activity android:name=".FinalActivity" />
-        <activity android:name=".TemperatureActivity"></activity>
+        <activity android:name=".TemperatureActivity" />
+        <activity android:name=".DistanceActivity" />
+        <activity android:name=".TimeActivity"></activity>
     </application>
 
 </manifest>
