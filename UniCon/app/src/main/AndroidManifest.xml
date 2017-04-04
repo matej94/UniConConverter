@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".SpeedActivity" />
-        <activity android:name=".FinalActivity"></activity>
+        <activity android:name=".FinalActivity" />
+        <activity android:name=".TemperatureActivity"></activity>
     </application>
 
 </manifest>
