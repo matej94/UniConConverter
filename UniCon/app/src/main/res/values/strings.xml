@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UniCon</string>
+    <string name="speedHint">Unesite brzinu</string>
+    <string name="temperatureHint">Unesite temperaturu</string>
+    <string name="distanceHint">Unesite udaljenost</string>
+    <string name="timeHint">Unesite vrijeme</string>
+</resources>

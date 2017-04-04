@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string-array name="speedArray">
+            <item>Kmh u m/s</item>
+            <item>m/s u Kmh</item>
+            <item>Kmh u Mph</item>
+            <item>Mph u Kmh</item>
+        </string-array>
+        <string-array name="temperatureArray">
+            <item>Celziusi u Kelvine</item>
+            <item>Kelvini u Celziuse</item>
+            <item>Celzius u Fahrenheit</item>
+            <item>Fahrenheit u Celzius</item>
+        </string-array>
+        <string-array name="distanceArray">
+            <item>km u m</item>
+            <item>m u km</item>
+            <item>m u cm</item>
+            <item>cm u m</item>
+            <item>m u dm</item>
+            <item>dm u m</item>
+            <item>m u mm</item>
+        </string-array>
+        <string-array name="timeArray">
+            <item>sati u sekunde</item>
+            <item>sekunde u sate</item>
+            <item>dani u minute</item>
+            <item>minute u sekunde</item>
+        </string-array>
+    </resources>
+
