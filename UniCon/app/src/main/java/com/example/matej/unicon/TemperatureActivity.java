@@ -52,22 +52,22 @@ public class TemperatureActivity extends AppCompatActivity {
                 }
             }
             private void C_u_K(){
-                explicitIntent.putExtra(REZULTAT,rez + "Celziusa\n\n" + (rez+273.15) + "Kelvina");
+                explicitIntent.putExtra(REZULTAT,rez +"\n" + "Celziusa\n\n" + (rez+273.15) +"\n" + "Kelvina");
                 explicitIntent.setClass(getApplicationContext(), FinalActivity.class);
                 startActivity(explicitIntent);
             }
             private void K_u_C(){
-                explicitIntent.putExtra(REZULTAT,rez + "Kelvina\n\n" + (rez-273.15) + "Celziusa");
+                explicitIntent.putExtra(REZULTAT,rez +"\n" + "Kelvina\n\n" + (rez-273.15) +"\n" + "Celziusa");
                 explicitIntent.setClass(getApplicationContext(), FinalActivity.class);
                 startActivity(explicitIntent);
             }
             private void C_u_F(){
-                explicitIntent.putExtra(REZULTAT,rez + "Celziusa\n\n" + ((rez*1.8)+32) + "Fahrenheita");
+                explicitIntent.putExtra(REZULTAT,rez +"\n" + "Celziusa\n\n" + ((rez*1.8)+32) +"\n" + "Fahrenheita");
                 explicitIntent.setClass(getApplicationContext(), FinalActivity.class);
                 startActivity(explicitIntent);
             }
             private void F_u_C(){
-                explicitIntent.putExtra(REZULTAT,rez + "Fahrenheita\n\n" + ((rez-32)/1.8) + "Celziusa");
+                explicitIntent.putExtra(REZULTAT,rez +"\n" + "Fahrenheita\n\n" + ((rez-32)/1.8) +"\n" + "Celziusa");
                 explicitIntent.setClass(getApplicationContext(), FinalActivity.class);
                 startActivity(explicitIntent);
             }

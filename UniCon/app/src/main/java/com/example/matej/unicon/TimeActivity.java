@@ -53,22 +53,22 @@ public class TimeActivity extends AppCompatActivity {
                 }
             }
             private void sat_u_sec(){
-                explicitIntent.putExtra(REZULTAT,rez + "h\n\n" + (rez*3600) + "sec");
+                explicitIntent.putExtra(REZULTAT,rez +"\n" + "h\n\n" + (rez*3600)+ "\n" + "sec");
                 explicitIntent.setClass(getApplicationContext(), FinalActivity.class);
                 startActivity(explicitIntent);
             }
             private void sec_u_sat(){
-                explicitIntent.putExtra(REZULTAT,rez + "sec\n\n" + rez/3600 + "h");
+                explicitIntent.putExtra(REZULTAT,rez +"\n" + "sec\n\n" + (rez/3600) +"\n" + "h");
                 explicitIntent.setClass(getApplicationContext(), FinalActivity.class);
                 startActivity(explicitIntent);
             }
             private void dan_u_min(){
-                explicitIntent.putExtra(REZULTAT,rez + "d\n\n" + rez*1440 + "min");
+                explicitIntent.putExtra(REZULTAT,rez +"\n" + "d\n\n" + (rez*1440) +"\n" + "min");
                 explicitIntent.setClass(getApplicationContext(), FinalActivity.class);
                 startActivity(explicitIntent);
             }
             private void min_u_sec(){
-                explicitIntent.putExtra(REZULTAT,rez + "min\n\n" + (rez*60) + "sec");
+                explicitIntent.putExtra(REZULTAT,rez +"\n" + "min\n\n" + (rez*60) +"\n" + "sec");
                 explicitIntent.setClass(getApplicationContext(), FinalActivity.class);
                 startActivity(explicitIntent);
             }

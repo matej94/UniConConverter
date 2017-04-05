@@ -53,22 +53,22 @@ public class SpeedActivity extends AppCompatActivity {
                 }
             }
             private void Kmh_u_ms(){
-                explicitIntent.putExtra(REZULTAT,rez + "Kmh\n\n" + (rez/3.6) + "m/s");
+                explicitIntent.putExtra(REZULTAT,rez +"\n" + "Kmh\n\n" + (rez/3.6) +"\n" + "m/s");
                 explicitIntent.setClass(getApplicationContext(), FinalActivity.class);
                 startActivity(explicitIntent);
             }
             private void ms_u_Kmh(){
-                explicitIntent.putExtra(REZULTAT,rez + "m/s\n\n" + rez*3.6 + "Kmh");
+                explicitIntent.putExtra(REZULTAT,rez +"\n" + "m/s\n\n" + (rez*3.6) +"\n" + "Kmh");
                 explicitIntent.setClass(getApplicationContext(), FinalActivity.class);
                 startActivity(explicitIntent);
             }
             private void Kmh_u_Mph(){
-                explicitIntent.putExtra(REZULTAT,rez + "Kmh\n\n" + rez*0.62 + "Mph");
+                explicitIntent.putExtra(REZULTAT,rez +"\n" + "Kmh\n\n" + (rez*0.62) +"\n" + "Mph");
                 explicitIntent.setClass(getApplicationContext(), FinalActivity.class);
                 startActivity(explicitIntent);
             }
             private void Mph_u_Kmh() {
-                explicitIntent.putExtra(REZULTAT, rez + "Mph\n\n" + (rez / 0.62) + "Kmh");
+                explicitIntent.putExtra(REZULTAT, rez +"\n" + "Mph\n\n" + (rez / 0.62) +"\n" + "Kmh");
                 explicitIntent.setClass(getApplicationContext(), FinalActivity.class);
                 startActivity(explicitIntent);
             }

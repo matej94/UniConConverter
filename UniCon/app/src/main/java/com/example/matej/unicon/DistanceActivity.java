@@ -61,43 +61,43 @@ public class DistanceActivity extends AppCompatActivity {
             }
 
             private void km_u_m() {
-                explicitIntent.putExtra(REZULTAT, rez + "km\n\n" + (rez * 1000) + "m");
+                explicitIntent.putExtra(REZULTAT, rez +"\n" + "km\n\n" + (rez * 1000) +"\n" + "m");
                 explicitIntent.setClass(getApplicationContext(), FinalActivity.class);
                 startActivity(explicitIntent);
             }
 
             private void m_u_km() {
-                explicitIntent.putExtra(REZULTAT, rez + "m\n\n" + rez / 1000 + "km");
+                explicitIntent.putExtra(REZULTAT, rez +"\n" + "m\n\n" + (rez / 1000) +"\n" + "km");
                 explicitIntent.setClass(getApplicationContext(), FinalActivity.class);
                 startActivity(explicitIntent);
             }
 
             private void m_u_cm() {
-                explicitIntent.putExtra(REZULTAT, rez + "m\n\n" + rez * 100 + "cm");
+                explicitIntent.putExtra(REZULTAT, rez +"\n" + "m\n\n" + (rez * 100) +"\n" + "cm");
                 explicitIntent.setClass(getApplicationContext(), FinalActivity.class);
                 startActivity(explicitIntent);
             }
 
             private void cm_u_m() {
-                explicitIntent.putExtra(REZULTAT, rez + "cm\n\n" + (rez / 100) + "m");
+                explicitIntent.putExtra(REZULTAT, rez +"\n" + "cm\n\n" + (rez / 100) +"\n" + "m");
                 explicitIntent.setClass(getApplicationContext(), FinalActivity.class);
                 startActivity(explicitIntent);
             }
 
             private void m_u_dm() {
-                explicitIntent.putExtra(REZULTAT, rez + "m\n\n" + (rez * 10) + "dm");
+                explicitIntent.putExtra(REZULTAT, rez +"\n" + "m\n\n" + (rez * 10) +"\n" + "dm");
                 explicitIntent.setClass(getApplicationContext(), FinalActivity.class);
                 startActivity(explicitIntent);
             }
 
             private void dm_u_m() {
-                explicitIntent.putExtra(REZULTAT, rez + "dm\n\n" + (rez / 10) + "m");
+                explicitIntent.putExtra(REZULTAT, rez +"\n" + "dm\n\n" + (rez / 10) +"\n" + "m");
                 explicitIntent.setClass(getApplicationContext(), FinalActivity.class);
                 startActivity(explicitIntent);
             }
 
             private void m_u_mm() {
-                explicitIntent.putExtra(REZULTAT, rez + "m\n\n" + (rez * 1000) + "mm");
+                explicitIntent.putExtra(REZULTAT, rez +"\n" + "m\n\n" + (rez * 1000) +"\n" + "mm");
                 explicitIntent.setClass(getApplicationContext(), FinalActivity.class);
                 startActivity(explicitIntent);
             }
